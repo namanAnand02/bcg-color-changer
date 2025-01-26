@@ -8,6 +8,7 @@ const blue = document.getElementById("blue")
 const green = document.getElementById("green")
 const pink = document.getElementById("pink")
 const yellow = document.getElementById("yellow")
+const purple = document.getElementById("purple")
 
 
 const body = document.body
@@ -30,5 +31,9 @@ pink.addEventListener("click", ()=>{
 })
 yellow.addEventListener("click", ()=>{
     body.style.backgroundColor = "yellow"
+
+})
+purple.addEventListener("click", ()=>{
+    body.style.backgroundColor = "purple"
 
 })
